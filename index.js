@@ -9,8 +9,8 @@ const cheerio = require('cheerio');
 app.use(cors());
 
 const PORT = process.env.PORT || 3000;
-const campusSite = 'https://lego.isscatering.dk/aastvej';
-const midtownSite = 'https://lego.isscatering.dk/midtown';
+const campusSite = 'https://lego.isscatering.dk/aastvej/en';
+const midtownSite = 'https://lego.isscatering.dk/midtown/en';
 
 
 app.get('/', async (req, res) => {
